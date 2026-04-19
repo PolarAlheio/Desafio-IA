@@ -1,2 +1,42 @@
-# Desafio-IA
-Desafio para a disciplina de Inteligência Artificial.
+# Detecção de drone com YOLOv8
+
+Sistema de detecção de drones em imagens utilizando o modelo YOLOv8, com análise comparativa entre modelos treinados com e sem técnicas de *data augmentation*.
+
+---
+
+## Sobre o projeto
+
+O crescimento do uso de drones em diferentes áreas traz desafios relacionados ao monitoramento e identificação desses dispositivos em ambientes reais. Este projeto propõe o desenvolvimento de um sistema de visão computacional capaz de detectar drones em imagens, avaliando o impacto do uso de *data augmentation* no desempenho do modelo.
+
+Foram treinadas e comparadas duas abordagens:
+
+- Modelo baseline (sem data augmentation)
+- Modelo com data augmentation
+
+A análise inclui métricas quantitativas e avaliação qualitativa das detecções.
+
+---
+
+## Objetivos
+
+- Desenvolver um sistema de detecção de drones com YOLOv8  
+- Comparar desempenho com e sem data augmentation  
+- Analisar métricas como Precision, Recall e F1-score  
+- Avaliar comportamento dos modelos em diferentes thresholds de confiança  
+- Investigar impacto da qualidade do dataset nas métricas  
+
+---
+
+## Estrutura do projeto
+
+```bash
+.
+├── models/              # Modelos treinados
+├── datasets/            # (não incluídos - ver links abaixo)
+├── results/             # Resultados e imagens geradas
+├── scripts/
+│   ├── train.py         # Treinamento do modelo
+│   ├── evaluate.py      # Avaliação personalizada
+│   └── plots.py         # Geração de gráficos
+├── report/              # Relatório final
+└── README.md
