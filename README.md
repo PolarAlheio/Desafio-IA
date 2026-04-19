@@ -26,17 +26,3 @@ A análise inclui métricas quantitativas e avaliação qualitativa das detecç�
 - Investigar impacto da qualidade do dataset nas métricas  
 
 ---
-
-## Estrutura do projeto
-
-```bash
-.
-├── models/              # Modelos treinados
-├── datasets/            # (não incluídos - ver links abaixo)
-├── results/             # Resultados e imagens geradas
-├── scripts/
-│   ├── train.py         # Treinamento do modelo
-│   ├── evaluate.py      # Avaliação personalizada
-│   └── plots.py         # Geração de gráficos
-├── report/              # Relatório final
-└── README.md
