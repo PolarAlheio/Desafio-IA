@@ -16,13 +16,3 @@ Foram treinadas e comparadas duas abordagens:
 A análise inclui métricas quantitativas e avaliação qualitativa das detecções.
 
 ---
-
-## Objetivos
-
-- Desenvolver um sistema de detecção de drones com YOLOv8  
-- Comparar desempenho com e sem data augmentation  
-- Analisar métricas como Precision, Recall e F1-score  
-- Avaliar comportamento dos modelos em diferentes thresholds de confiança  
-- Investigar impacto da qualidade do dataset nas métricas  
-
----
